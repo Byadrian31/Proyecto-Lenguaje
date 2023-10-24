@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
     <title>PáginaEmpresa</title>
     <style>
     ul {
@@ -25,12 +29,43 @@
         text-align: center;
         padding: 8px 16px;
     }
+    #Dep {
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+    .contenedor-flexbox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #Oficina {
+        width: 300px;
+        padding: 30px;
+        box-shadow: 0 5px 15px black;
+        border-radius: 20px;
+        margin-left: 300px;
+
+    }
+    #Departamento {
+        width: 300px;
+        padding: 30px;
+        box-shadow: 0 5px 15px black;
+        border-radius: 20px;
+        margin-left: 120px;
+    }
+    #botones {
+        margin-bottom: 300px;
+        background-color: black;
+    }
+    #pedido {
+        
+    }
     </style>
 </head>
-<body style="font-family: sans-serif; background-color: rgb(42, 42, 99); color: white;">
+<body style="font-family: poppins; background-color: rgb(42, 42, 99); color: white;">
     
     <h1>
-        <ul>
+        <ul style="font-family: poppins;">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Contacto</a></li>
             <li><a href="#">Departamentos</a></li>
@@ -38,14 +73,44 @@
             <li style="float: right;"><a href="https://www.google.es/maps/place/Karlsruhe,+Alemania/@49.0159324,8.3271333,12z/data=!3m1!4b1!4m6!3m5!1s0x47970648a2e07809:0xb6fc55734cb7ee7f!8m2!3d49.0068901!4d8.4036527!16zL20vMHFiMXo?entry=ttu"><img src="https://cdn.icon-icons.com/icons2/3765/PNG/512/map_pin_pushpin_location_icon_231231.png" width="22">Karlsruhe</a></li>
         </ul>
         
-        <img src="Logo.png" width="50">RDR 3D DRUCK SERVICES
+        <img src="Logo.png" style="text-align: center;" width="50">RDR 3D DRUCK SERVICES
         <img src="Logo.png" alt="30px" width="50px">
         
-    </h1>
-    <h2 style="text-align: center; font-family: sans-serif;">
+    <div>
+        </h1>
+        <h1 style="text-align: center;">
+        <img src="1.jpeg" width="400"> <img src="2.jpeg" width="400">
+        </h1>
+        <h1 style="text-align: center;">
+            <img src="3.jpeg" width="400"> <img src="4.jpeg" width="400">
+        </h1>
+    </div>
+    <h5 id="pedido" style="text-align: center;">
+        <button>
+            PIDE EL TUYO
+        </button>
+    </h5>
+    <h2 id="Dep">
+        DEPARTAMENTOS 
+    </h2>
+    <div class="contenedor-flexbox">
+        <div style="width: 50%; display: inline-block;">
+        <p id="Oficina">
+        Oficina Central para la Gestión de Encargos
+        <br>
+        
+        </p>
+        </div>
+        <div style="width: 50%; display: inline-block;">    
+        <p id="Departamento">
+        Departamento de Procesamiento de Pedidos
+        </p>
+        </div>
+    </div>
+    <h2 style="text-align: center;">
         <b>Mi historia</b>
     </h2>
-    <pre style="text-align: center; font-family: sans-serif;">
+    <pre style="text-align: center;">
         Luego de participar en diversas convenciones y llevar a cabo una extensa investigación durante meses sobre diversos aspectos vinculados
         al campo de las impresoras tridimensionales, he tomado la decisión de adentrarme aún más en este sector. 
         Durante este proceso, he analizado cuidadosamente tanto la ofertacomo la demanda que este negocio genera, y he 
@@ -55,10 +120,10 @@
         Estoy comprometido a dedicar los recursos y el esfuerzo necesarios para lograr este objetivo y contribuir de manera significativa al 
         avance de esta emocionante industria.
     </pre>
-    <h2 style="text-align: center; font-family: sans-serif;">
+    <h2 style="text-align: center;">
         <b>¿Qué hago?</b>
     </h2>
-    <pre style="text-align: center; font-family: sans-serif;">
+    <pre style="text-align: center;">
         Esta empresa se especializa en la creación de modelos tridimensionales personalizados, meticulosamente
         diseñados para satisfacer las necesidades específicas de nuestros estimados clientes. Nuestra dedicación 
         se extiende más allá de la mera concepción de estos modelos, ya que también abrazamos la responsabilidad 
@@ -66,26 +131,21 @@
         e integral se lleva a cabo con un compromiso inquebrantable con la excelencia, asegurando que cada detalle
         sea cuidadosamente considerado y ejecutado a la perfección.
     </pre>
-    <h3 style="font-family: sans-serif;">
-        DEPARTAMENTOS 
-    </h3>
-    <p style="font-family: sans-serif;">
-        Oficina Central para la Gestión de Encargos
-    </p>
-    <p style="font-family: sans-serif;">
-        Departamento de Procesamiento de Pedidos
-    </p><br>
-    <br><br><br><br><br><br><br><br><br><br><br>
-    <h5 style="text-align: center; font-family: sans-serif;" >
-        <button> 
+    
+    <h5 id="botones" style="text-align: center">
+        <a href="https://instagram.com/rubengarreyes?igshid=NGVhN2U2NjQ0Yg==">
+        <button>
             <img src="https://i.pinimg.com/originals/7d/bd/0b/7dbd0b51c20a695901a84c4c083500f6.png" width="30px">
         </button>
+        </a>
         <button>
            <img src="https://cdn-icons-png.flaticon.com/512/542/542689.png" width="23px">
         </button>
+        <a href="https://discord.com">
         <button>
             <img src="https://cdn1.iconfinder.com/data/icons/computer-techologies-outline-free/128/ic_discord_logo-512.png" width="23">
         </button>
+        </a>
         <button>
             <img src="https://cdn-icons-png.flaticon.com/512/4406/4406172.png" width="23">
         </button>
