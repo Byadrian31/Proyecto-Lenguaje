@@ -6,6 +6,9 @@ ul {
     background-color: #111;
     font-size: 20px;
 }
+body{
+    style="font-family: poppins; background-color: rgb(42, 42, 99); color: white;"
+}
 li {
     float: left;
     border-right: white;
