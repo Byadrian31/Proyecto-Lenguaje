@@ -1,0 +1,97 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    font-size: 20px;
+}
+li {
+    float: left;
+    border-right: white;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+}
+#Dep {
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.contenedor-flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #111;
+        font-size: 20px;
+    }
+    li {
+        float: left;
+        border-right: white;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 8px 16px;
+    }
+    #Dep {
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+    .contenedor-flexbox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #Oficina {
+        width: 300px;
+        padding: 30px;
+        box-shadow: 0 5px 15px black;
+        border-radius: 20px;
+        margin-left: 300px;
+
+    }
+    #Departamento {
+        width: 300px;
+        padding: 30px;
+        box-shadow: 0 5px 15px black;
+        border-radius: 20px;
+        margin-left: 120px;
+    }
+    #botones {
+        margin-bottom: 300px;
+        background-color: black;
+    }
+    #pedido {
+        
+    }
+}
+#Oficina {
+    width: 300px;
+    padding: 30px;
+    box-shadow: 0 5px 15px black;
+    border-radius: 20px;
+    margin-left: 300px;
+
+}
+#Departamento {
+    width: 300px;
+    padding: 30px;
+    box-shadow: 0 5px 15px black;
+    border-radius: 20px;
+    margin-left: 120px;
+}
+#botones {
+    margin-bottom: 300px;
+    background-color: black;
+}
+#pedido {
+    
+}
