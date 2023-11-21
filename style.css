@@ -18,6 +18,10 @@ li a {
     text-align: center;
     padding: 8px 16px;
 }
+#pedido {
+    text-decoration: none;
+    color: white;
+}
 #Dep {
     margin-left: 20px;
     margin-top: 80px;
@@ -33,14 +37,9 @@ li a {
     box-shadow: 0 5px 15px black;
     border-radius: 20px;
     margin-left: 300px;
+    text-decoration: none;
+    color: white;
 
-}
-#Departamento {
-    width: 300px;
-    padding: 30px;
-    box-shadow: 0 5px 15px black;
-    border-radius: 20px;
-    margin-left: 120px;
 }
 #botones {
     margin-bottom: 300px;
@@ -59,4 +58,7 @@ h2 {
     align-items: center;
     justify-content: space-between;
     display: flex;
+}
+#boton{
+    color: white;
 }
