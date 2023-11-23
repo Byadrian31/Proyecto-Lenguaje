@@ -1,5 +1,7 @@
+/* Importación de la fuente Poppins con un peso de 600 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
+/* Estilos para la barra de navegación */
 ul {
     list-style-type: none;
     margin: 0;
@@ -8,29 +10,35 @@ ul {
     background-color: #111;
     font-size: 20px;
 }
+/* Estilos para los elementos de la barra de navegación */
 li {
     float: left;
     border-right: white;
 }
+/* Estilos para los enlaces de la barra de navegación */
 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 8px 16px;
 }
+/* Estilos para el enlace de pedido */
 #pedido {
     text-decoration: none;
     color: white;
 }
+/* Estilos para el título de departamentos */
 #Dep {
     margin-left: 20px;
     margin-top: 80px;
 }
+/* Estilos para el contenedor flexbox de departamentos *
 .contenedor-flexbox {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+/* Estilos para los enlaces de los departamentos */
 #Oficina {
     width: 300px;
     padding: 30px;
@@ -41,24 +49,31 @@ li a {
     color: white;
 
 }
+/* Estilos para la sección de botones */
 #botones {
     margin-bottom: 300px;
 }
+/* Estilos para el cuerpo de la página de encargos */
 #bodyencargos{
     background-color: rgb(42, 42, 99);
 }
+/* Estilos para el logo en la página de encargos */
 #Logo {
     text-align: center;
 }
+/* Estilos para los títulos h2 */
 h2 {
     text-align: center;
     color: white;
 }
+/* Estilos para la caja de elementos  */
 #Caja{
     align-items: center;
     justify-content: space-between;
     display: flex;
 }
+/* Estilos para los botones */
+#boton{
 #boton{
     color: white;
 }
