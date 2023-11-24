@@ -1,14 +1,20 @@
 /* Importación de la fuente Poppins con un peso de 600 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
-/* Estilos para la barra de navegación */
-ul {
+#cabecera {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #111;
     font-size: 20px;
+}
+#titulo {
+    color: white;
+}
+/*Para quitar el subrayado de los enlaces html*/
+a {
+    text-decoration: none;
 }
 /* Estilos para los elementos de la barra de navegación */
 li {
@@ -22,36 +28,18 @@ li a {
     text-align: center;
     padding: 8px 16px;
 }
-/* Estilos para el enlace de pedido */
-#pedido {
-    text-decoration: none;
-    color: white;
-}
-/* Estilos para el título de departamentos */
-#Dep {
-    margin-left: 20px;
-    margin-top: 80px;
-}
-/* Estilos para el contenedor flexbox de departamentos *
-.contenedor-flexbox {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-/* Estilos para los enlaces de los departamentos */
-#Oficina {
-    width: 300px;
-    padding: 30px;
-    box-shadow: 0 5px 15px black;
-    border-radius: 20px;
-    margin-left: 300px;
-    text-decoration: none;
-    color: white;
-
+#productos {
+    margin: 40px;
+    text-align: center;
 }
 /* Estilos para la sección de botones */
 #botones {
-    margin-bottom: 300px;
+    margin-top: 250px;
+    text-align: center;
+    background-color: #111;
+    padding-bottom: 170px;
+    padding-top: 100px;
+    
 }
 /* Estilos para el cuerpo de la página de encargos */
 #bodyencargos{
@@ -64,16 +52,5 @@ li a {
 /* Estilos para los títulos h2 */
 h2 {
     text-align: center;
-    color: white;
-}
-/* Estilos para la caja de elementos  */
-#Caja{
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-}
-/* Estilos para los botones */
-#boton{
-#boton{
     color: white;
 }
