@@ -23,37 +23,41 @@
             <img src="https://cdn.icon-icons.com/icons2/3765/PNG/512/map_pin_pushpin_location_icon_231231.png" width="22">Karlsruhe
         </a>
         </li>
-    </ul>d="Logo"><img src="Logo.png"></div>
-    <h2>PARA HACER TU PEDIDO RELLENA EL SIGUIENTE FORMULARIO  </h2>
-    <!-- Sección del formulario de pedido -->    
-    <form action="" style="color: white; margin-left: 250px;">
-        <fieldset style="margin-right: 900px;margin-left: 550px; text-align: right;"> 
-            <legend>Formulario</legend>
-
-            <!-- Campos del formulario -->
-            Nombre:                                 <input type="text" name="" placeholder="Nombre" required><br>
-            Apellidos:                              <input type="text" name="" placeholder="Apellidos" required><br>
-            Correo:                                 <input type="text" name="" placeholder="Correo" required><br>
-            Telefono:                               <input type="number" name="" placeholder="Número" required><br>
-            Dirección:                              <input type="text" name="" placeholder="Dirección" required><br>
-            ¿Que producto quieres?                  <input type="text" name="" placeholder="Producto" required><br>
-            Metodo de envio (Correos/Amazon)        <input type="text" name="" placeholder="Metodo de envio" required><br>
-        
-            <!-- Botón de envío -->
-            <input type="submit" value="Enviar">
-        </fieldset>
-    </form>
+    </ul>
+    <div id="cuerpo" style="background-color: rgb(42, 42, 99);">
+        <form id="forma" style="color: black; background-color: rgb(42, 42, 99);">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="direccion">Dirección de entrega:</label>
+            <input type="text" id="direccion" name="direccion" required>
+    
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+    
+            <div class="product-container">
+                <div class="product">
+                    <img src="producto1.jpg" alt="Producto 1">
+                </div>
+                <div class="product">
+                    <img src="producto2.jpg" alt="Producto 2">
+                </div>
+                <div class="product">
+                    <img src="producto3.jpg" alt="Producto 3">
+                </div>
+                <div class="product">
+                    <img src="producto4.jpg" alt="Producto 4">
+                </div>
+            </div>
+    </div>
+    
+            <button type="submit">Realizar Pedido</button>
 
     <!-- Información sobre los métodos de envío -->    
     <p style="text-align: center; color: white;">Atención! Puedes elegir el método de envío de tu producto mediante Correos o mediante Amazon, dependiendo del método el coste de envío puede variar.</p>
-        
-        <!-- Sección de productos disponibles -->
-        <div id="productos">TENEMOS ESTOS PRODUCTOS DISPONIBLES!!!
-            <pre>
-            <img src="1.jpeg" width="400"><img src="2.jpeg" width="400">
-            <img src="3.jpeg" width="400"><img src="4.jpeg" width="400">
-        </pre>
-        </div>
         <!-- Botones de contacto -->
         <h5 id="botones" style="text-align: center">
             <a href="https://instagram.com/rubengarreyes">      <button><img src="https://i.pinimg.com/originals/7d/bd/0b/7dbd0b51c20a695901a84c4c083500f6.png" width="30px"></button>
