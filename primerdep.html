@@ -1,82 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Configuración del documento -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enlace a la hoja de estilos -->
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <!-- Icono de la pestaña del navegador -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.Sco">
+    <!-- Preconexión a Google Fonts para mejorar la carga -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Título de la página -->
     <title>RDR 3D DRUCK SERVICES</title>
 </head>
 <body>
-    <ul id="cabecera"><b>
-        <li><img style="margin-left: 20px;" src="Logo.png" width="40"></li>
-        <li><a href="http://127.0.0.1:3000/páginaempresa.html">Inicio</a></li>
-        <li><a href="http://127.0.0.1:3000/Sobremi.html">Sobre mi</a></li>
-        <li><a href="http://127.0.0.1:3000/productos.html">Productos</a></li>
-        <li><a href="http://127.0.0.1:3000/primerdep.html">Pedidos</a></li>
-        <li><a href="http://127.0.0.1:3000/faq.html">FAQ</a></li>
-        <li style="float: right;">
-        <a href="https://www.google.es/maps/place/Karlsruhe,+Alemania/@49.0159324,8.3271333,12z/data=!3m1!4b1!4m6!3m5!1s0x47970648a2e07809:0xb6fc55734cb7ee7f!8m2!3d49.0068901!4d8.4036527!16zL20vMHFiMXo?entry=ttu">
-            <img src="https://cdn.icon-icons.com/icons2/3765/PNG/512/map_pin_pushpin_location_icon_231231.png" width="22">Karlsruhe</a>
-        </li>
-    </ul>
-    <div id="cuerpo" style="background-color: rgb(42, 42, 99);">
-        <form id="forma">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-    
-            <label for="direccion">Dirección de entrega:</label>
-            <input type="text" id="direccion" name="direccion" required>
-    
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required>
-    
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" required>
-
-            <label for="Producto">Producto</label>
-            <input type="text" id="productoelecc" name="producto" required>
-
-            <label for="Metodo">Método de envío</label>
-            <select name="Método" id="seleccion">
-                <option value="Seleccion">Selecciona una opción</option>
-                <option value="Correos">Correos</option>
-                <option value="Amazon">Amazon</option>
-            </select>
-    
-            <div class="product-container">
-                <div class="product">
-                    <img src="1.jpeg" alt="Producto 1">
-                </div>
-                <div class="product">
-                    <img src="2.jpeg" alt="Producto 2">
-                </div>
-                <div class="product">
-                    <img src="3.jpeg" alt="Producto 3">
-                </div>
-                <div class="product">
-                    <img src="4.jpeg" alt="Producto 4">
-                </div>
-            </div>
-    
-            <button id="boton2" type="submit">Realizar Pedido</button>
-        </form>
-    </div>
-    <!-- Información sobre los métodos de envío -->    
-    <p style="text-align: left; color: white;">Atención! El coste de envío puede variar dependiendo del método de envío</p>
-        <!-- Botones de contacto -->
-        <div>
-            <h5 id="botones" style="text-align: center; margin-top: 2%;">
-                <a href="https://instagram.com/rubengarreyes">      <button><img src="https://i.pinimg.com/originals/7d/bd/0b/7dbd0b51c20a695901a84c4c083500f6.png" width="30px"></button>
-                </a>
-                <a href="https://mail.google.com/mail/u/0/#inbox">  <button><img src="https://cdn-icons-png.flaticon.com/512/542/542689.png" width="23px"></button>
-                </a>
-                <a href="https://discord.com">                      <button><img src="https://cdn1.iconfinder.com/data/icons/computer-techologies-outline-free/128/ic_discord_logo-512.png" width="23"></button>
-                </a>
-                <button><img src="https://cdn-icons-png.flaticon.com/512/4406/4406172.png" width="23"></button>
-            </h5>
-        </div>
+    <!-- Barra de navegación -->
+        <ul id="cabecera"><b>
+            <li><img style="margin-left: 20px;" src="Logo.png" width="40"></li>
+            <li><a href="http://127.0.0.1:3000/páginaempresa.html">Inicio</a></li>
+            <li><a href="http://127.0.0.1:3000/Sobremi.html">Sobre mi</a></li>
+            <li><a href="http://127.0.0.1:3000/productos.html">Productos</a></li>
+            <li><a href="http://127.0.0.1:3000/primerdep.html">Pedidos</a></li>
+            <li><a href="http://127.0.0.1:3000/faq.html">FAQ</a></li>
+            <li style="float: right;">
+            <a href="https://www.google.es/maps/place/Karlsruhe,+Alemania/@49.0159324,8.3271333,12z/data=!3m1!4b1!4m6!3m5!1s0x47970648a2e07809:0xb6fc55734cb7ee7f!8m2!3d49.0068901!4d8.4036527!16zL20vMHFiMXo?entry=ttu">
+                <img src="https://cdn.icon-icons.com/icons2/3765/PNG/512/map_pin_pushpin_location_icon_231231.png" width="22">Karlsruhe</a>
+            </li>
+        </ul></b>
+    <!-- Sección de botones de contacto -->
+        <h5 id="botones" style="text-align: center; margin-top: 2%;">
+            <a href="https://instagram.com/rubengarreyes">      <button><img src="https://i.pinimg.com/originals/7d/bd/0b/7dbd0b51c20a695901a84c4c083500f6.png" width="30px"></button>
+            </a>
+            <a href="https://mail.google.com/mail/u/0/#inbox">  <button><img src="https://cdn-icons-png.flaticon.com/512/542/542689.png" width="23px"></button>
+            </a>
+            <a href="https://discord.com">                      <button><img src="https://cdn1.iconfinder.com/data/icons/computer-techologies-outline-free/128/ic_discord_logo-512.png" width="23"></button>
+            </a>
+            <button><img src="https://cdn-icons-png.flaticon.com/512/4406/4406172.png" width="23"></button>
+        </h5>
+</body>
 </html>
