@@ -49,6 +49,7 @@ footer {
     padding: 20px;
     text-align: left;
 }
+/*para quitar el subrayado de los elementos del footer*/
 footer a {
     color: white;
     text-decoration: none;
@@ -59,10 +60,12 @@ footer li {
     text-align: right;
     display: flex;
 }
+/*copyright*/
 #copy {
     text-align: center;
     font-size: 10px;
 }
+/*el bloque de cambiar el idioma*/
 #lenguajeswitcher {
     background-color: #111;
     color: white;
@@ -81,19 +84,21 @@ h2 {
     text-align: center;
     color: white;
 }
+/*el body de la página de pedidos*/
 #cuerpo {
     font-family: poppins;
-    background-color: #f4f4f4;
+    background-color: rgb(42, 42, 99);
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: left;
-    height: 100vh;
+    height: 130vh;
 }
+
 #forma {
-    color: rgba(0, 0, 0, 0.644);
-    background-color: #fff;
+    background-color: rgb(42, 42, 99);
+    color: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -115,11 +120,15 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+#metodoenvio {
+    padding: 10px;
+}
 
 .product-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .product {
@@ -140,9 +149,11 @@ input {
     border-radius: 4px;
     cursor: pointer;
 }
-#boton2:hover{
+
+#boton2:hover {
     background-color: #45a049;
 }
+/*Aquí acaba la página de pedidos*/
 #preguntasfrecuentes {
     color: rgba(0, 0, 0, 0.719);
     background-color: rgb(42, 42, 99);
