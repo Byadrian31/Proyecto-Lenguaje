@@ -173,22 +173,18 @@ input {
     max-width: 600px;
     width: 100%;
 }
-
-.faq-item {
-    border-bottom: 1px solid #ccc;
-    padding: 16px 0;
-}
-
-.faq-question {
-    font-weight: bold;
-    cursor: pointer;
-}
-
 .faq-answer {
     display: none;
     margin-top: 8px;
 }
-
-.faq-item.active .faq-answer {
+.faq-item:target .faq-answer {
     display: block;
+    margin-top: 8px;
+    border-bottom: 1px solid;
+    padding: 16px 0;
+}
+.faq-question {
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 5px;
 }
