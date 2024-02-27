@@ -9,6 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>RDR 3D DRUCK SERVICES</title>
+    <style>
+        tr:hover{
+            background-color: burlywood;
+            color: black;
+            
+        }
+    </style>
 </head>
 <body>
         <ul id="cabecera"><b>
@@ -23,8 +30,58 @@
                 <img src="https://cdn.icon-icons.com/icons2/3765/PNG/512/map_pin_pushpin_location_icon_231231.png" width="22">Karlsruhe</a>
             </li>
         </ul></b>
-
-        <label>Selecciona fecha de entrega:
+        <table border="2" style="margin-top: 2%; width: 100%;">
+            <caption>Pedidos de clientes</caption>
+            <tr>
+            <th>Nombre del cliente</th>
+            <th>Dirección de facturación</th>
+            <th>Descripción del producto</th>
+            <th>Precio del producto final</th>
+            <th>Impuestos</th>
+            <th>Tipo de pago</th>
+            </tr>
+            <tr>
+            <td>Walter</td>
+            <td>Calle Mayor, 123</td>
+            <td>Miniatura de Brawl Stars</td>
+            <td>€90.00</td>
+            <td>€8.10</td>
+            <td>Tarjeta de debito</td>
+            </tr>
+            <tr>
+            <td>Izan</td>
+            <td>Calle Real 345</td>
+            <td>Figuras de acción de One Piece</td>
+            <td>€245.00</td>
+            <td>€14.78</td>
+            <td>Efectivo</td>
+            </tr>
+            <tr>
+            <td>Maxi</td>
+            <td>Avenida Principal 789</td>
+            <td>Escudo del Madrid</td>
+            <td>€50.00</td>
+            <td>€3.19</td>
+            <td>Tarjeta de credito</td>
+            </tr>
+            <tr>
+            <td>Adrián</td>
+            <td>Calle del Sol 567</td>
+            <td>Colección de miniaturas de dinosaurios</td>
+            <td>€60.00</td>
+            <td>€5.10</td>
+            <td>PayPal</td>
+            </tr>
+            <tr>
+            <td>Carlos</td></td>
+            <td>Calle Picasso 123</td>
+            <td>Coche Rocket League</td>
+            <td>€200.00</td>
+            <td>€10.70</td>
+            <td>Efectivo</td>
+            </tr>
+            </table>
+        <label style="margin-top: 2%;">Selecciona fecha de entrega:
             <input
             type="datetime-local" value="2024-01-03T09:30"
             min="2024-01-03T20:00" max="2024-12-31T20:00"
