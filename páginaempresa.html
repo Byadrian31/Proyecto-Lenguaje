@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Configuración del documento -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Enlace a la hoja de estilos -->
     <link rel="stylesheet" href="style.css">
-    <!-- Icono de la pestaña del navegador -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <!-- Preconexión a Google Fonts para mejorar la carga -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <!-- Título de la página -->
     <title>RDR 3D DRUCK SERVICES</title>
 </head>
 <body style="font-family: poppins; background-color: rgb(42, 42, 99); color: white;">
+
     <!-- Barra de navegación -->
-    <h5>
-        <ul id="cabecera"><b>
+    <ul id="cabecera">
+        <b>
+            <!--ICONO DE CAMBIO DE IDIOMA-->
+            <li style="float: left;">
+                <select name="Idioma" id="lenguajeswitcher" style="margin-top: 5px; ">
+                    <option value="">Español</option>
+                    <option value="">English</option>
+                    <option value="">Germany</option>
+                </select>
+            </li>
+            <!--ICONO DE CAMBIO DE IDIOMA-->
             <li><img style="margin-left: 500px;" src="Logo.png" width="40"></li>
             <li><a href="./páginaempresa.html" style="color: burlywood;">Inicio</a></li>
             <li><a href="./Sobremi.html">Sobre mi</a></li>
@@ -26,27 +31,30 @@
             <li><a href="./primerdep.html">Pedidos</a></li>
             <li><a href="./faq.html">FAQ</a></li>
             <li style="float: right;">
-            <a href="https://www.google.es/maps/place/Karlsruhe,+Alemania/@49.0159324,8.3271333,12z/data=!3m1!4b1!4m6!3m5!1s0x47970648a2e07809:0xb6fc55734cb7ee7f!8m2!3d49.0068901!4d8.4036527!16zL20vMHFiMXo?entry=ttu">
+                <a href="https://www.google.es/maps/place/Karlsruhe,+Alemania/@49.0159324,8.3271333,12z/data=!3m1!4b1!4m6!3m5!1s0x47970648a2e07809:0xb6fc55734cb7ee7f!8m2!3d49.0068901!4d8.4036527!16zL20vMHFiMXo?entry=ttu">
                 <img src="https://cdn.icon-icons.com/icons2/3765/PNG/512/map_pin_pushpin_location_icon_231231.png" width="22">Karlsruhe</a>
             </li>
-        </ul>
-        
+        </b>
+    </ul>
 
+    <!-- Resto del contenido -->
     <h1 style="text-align: center;">SERVICIO DE IMPRESIÓN 3D</h1>
     <p style="text-align: center;"><img src="./Logo.png" alt="Logo"></p>
     <p style="text-align: center; margin-right: 10%; margin-left: 10%;">La impresión 3D es una técnica revolucionaria de fabricación que permite la creación de objetos tridimensionales mediante la adición sucesiva de capas de material. Esta tecnología está transformando la forma en que se producen y diseñan productos, permitiendo una mayor flexibilidad y personalización en la fabricación.</p>
     <ul style="margin-top: 5%;">
-        <li><span style="color: burlywood;">Atención al cliente</span></li>
-        <br>
-            <p>Te atenderemos sin compromiso y te asesoraremos sobre todas las dudas que tengas.</p>
-        <li><span style="color: burlywood;">Calidad</span></li>
-        <br>
-            <p>Utilizamos los mejores materiales para que tu producto quede perfecto.</p>
-        <li><span style="color: burlywood;">Precios Bajos</span></li>
-        <br>
+        <div>
+            <li><span style="color: burlywood;">Atención al cliente</span></li>
+            <br>
+                <p>Te atenderemos sin compromiso y te asesoraremos sobre todas las dudas que tengas.</p>
+            <li><span style="color: burlywood;">Calidad</span></li>
+            <br>
+                <p>Utilizamos los mejores materiales para que tu producto quede perfecto.</p>
+            <li><span style="color: burlywood;">Precios Bajos</span></li>
+            <br>
+        </div>
             <p>En nuestro servicio de impresión 3D, ajustamos nuestros precios para que siempre te suponga el mínimo coste.</p>
     </ul>
-    <!-- Sección de botones de contacto -->
+    <!-- FOOTER PARA SECCIONES DE CONTACTO Y COPYRIGHT -->
     <footer>
         <div id="Avisolegal">
             <h4>Enlaces útiles</h4>
@@ -58,13 +66,6 @@
                 <li><a href="#seguridad">Seguridad</a></li>
             </ul>
         </div>
-        <p>idioma:
-        <select name="Idioma" id="lenguajeswitcher">
-            <option value="">Español</option>
-            <option value="">English</option>
-            <option value="">Germany</option>
-        </select>
-        </p>
         <p id="copy">&copy;RGR 3D DRUCK SERVICES. Todos los derechos reservados</p>
     </footer>
 </body>
