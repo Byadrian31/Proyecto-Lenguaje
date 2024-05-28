@@ -9,6 +9,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <style>
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            background-color: rgb(42, 42, 99);
+            margin-bottom: 4%;
+        }
+
+        video {
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
     <title>RDR 3D DRUCK SERVICES</title>
 </head>
 
@@ -26,12 +45,13 @@
                 </select>
             </li>
             <!--ICONO DE CAMBIO DE IDIOMA-->
-            <li><img style="margin-left: 500px;" src="Logo.png" width="40"></li>
+            <li style="margin-left: 12%;"><img src="Logo.png" width="40"></li>
             <li><a href="./páginaempresa.html" style="color: burlywood;">Inicio</a></li>
             <li><a href="./Sobremi.html">Sobre mi</a></li>
             <li><a href="./productos.html">Productos</a></li>
             <li><a href="./primerdep.html">Pedidos</a></li>
             <li><a href="./faq.html">FAQ</a></li>
+            <li><a href="./login.html">Inicio de sesión</a></li>
             <li style="float: right;">
                 <a
                     href="https://www.google.es/maps/place/Karlsruhe,+Alemania/@49.0159324,8.3271333,12z/data=!3m1!4b1!4m6!3m5!1s0x47970648a2e07809:0xb6fc55734cb7ee7f!8m2!3d49.0068901!4d8.4036527!16zL20vMHFiMXo?entry=ttu">
@@ -45,7 +65,9 @@
     <h1 style="text-align: center;">SERVICIO DE IMPRESIÓN 3D</h1>
     <p style="text-align: center;"><img src="./Logo.png" alt="Logo"></p>
 
-    <p id="borde-redondo" style="text-align: center; margin-right: 10%; margin-left: 10%; padding-left: 8%; padding-right: 8%;" >La impresión 3D es una técnica
+    <p id="borde-redondo"
+        style="text-align: center; margin-right: 10%; margin-left: 10%; padding-left: 8%; padding-right: 8%;">La
+        impresión 3D es una técnica
         revolucionaria de fabricación que permite la creación de objetos tridimensionales mediante la adición sucesiva
         de capas de material. Esta tecnología está transformando la forma en que se producen y diseñan productos,
         permitiendo una mayor flexibilidad y personalización en la fabricación.</p>
@@ -66,6 +88,16 @@
             </div>
         </div>
     </ul>
+    <div class="video-container">
+        <video height="900" autoplay loop muted>
+            <source src="video.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+
+
+
+
     <!-- FOOTER PARA SECCIONES DE CONTACTO Y COPYRIGHT -->
     <footer>
         <div id="Avisolegal">
