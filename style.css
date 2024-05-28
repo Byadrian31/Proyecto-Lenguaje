@@ -18,9 +18,17 @@ body {
     font-family: poppins;
 }
 
-h2 {
+p{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-family: 'Bungee Shade', cursive;
+}
+h2, h3{
     text-align: center;
     color: rgba(255, 255, 255, 0.829);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 /* Para quitar el subrayado de los enlaces html */
@@ -31,6 +39,7 @@ a {
 /* Estilos para los elementos de la barra de navegación */
 li {
     float: left;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Estilos para los enlaces de la barra de navegación */
@@ -77,6 +86,7 @@ li a {
     /* Ajusta el margen derecho según tus necesidades */
     margin-left: 200px;
     /* Ajusta el margen izquierdo según tus necesidades */
+    margin-top: 5%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
@@ -128,8 +138,10 @@ footer li {
     padding: 0;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     height: 130vh;
+    max-width: 90%; /* Limita el ancho */
+
 }
 
 #forma {
@@ -141,6 +153,7 @@ footer li {
     display: flex;
     flex-wrap: wrap;
     max-width: 600px;
+    margin-top: 40px; /* Añade margen superior */
 }
 
 label {
@@ -250,11 +263,17 @@ button:active {
     width: auto;
     height: auto;
 }
+.contenedor-pre {
+    display: grid;
+    place-items: center; /* Centra horizontal y verticalmente */
+}
+
 #borde-fondo {
-    border-radius: 75px;
+    border-radius: 75px; /* Mantiene el borde redondeado */
     background: url(fondo.avif) no-repeat;
-    background-size: cover; /* This will make sure the image covers the entire element */
-    width: auto;
-    height: auto;
-    padding: 2%;
+    background-size: cover;
+    display: inline-block; /* Hace que el elemento se ajuste al contenido */
+    padding: 2%; /* Mantiene el espaciado interno */
+     margin: 0 auto; /* Margen superior e inferior 0, márgenes laterales automáticos */
+    width: 80%;   /* O establece un ancho fijo */
 }
